@@ -1,0 +1,26 @@
+body {
+  background-color: #009688;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bungee';
+  font-size: 40px;
+  color: white;
+}
+input {
+  padding: 20px;
+  height: 40px;
+  width: 50%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #00695C;
+  border-width: 15px;
+  border-color: #FF80AB;
+}
+p {
+  font-family: 'Titillium Web';
+  font-size: 30px;
+  color: #E0F2F1;
+}

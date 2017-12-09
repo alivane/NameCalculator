@@ -4,22 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Gloria+Hallelujah|Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="angular.min.js" charset="utf-8"></script>
   <script src="app.js" charset="utf-8"></script>
-  <title>Name Calculator</title>
+  <title>Letters Calculator</title>
 </head>
 <body ng-app="nameCalculator">
-  <div ng-controller="nameCalculatorController">
+  <div ng-controller="nameCalculatorController" >
     <div>
-      <h1>Name Calculator</h1>
+      <h1>Letters Calculator</h1>
     </div>
     <div>
-      <p>Name: {{name}}</p>
+      <p>Letters:</p>
+      <p>{{name}}</p>
       <input type="text" ng-model="name" ng-keyup="numberLettersFunction()" >
     </div>
     <div>
-      <p>The number of letters of your name is: {{totalLetters}} </p>
+      <p>The number of letters is: {{totalLetters}} </p>
     </div>
   </div>
 </body>
