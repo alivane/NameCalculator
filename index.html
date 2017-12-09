@@ -7,9 +7,20 @@
   <link rel="stylesheet" href="style.css">
   <script src="angular.min.js" charset="utf-8"></script>
   <script src="app.js" charset="utf-8"></script>
-  <title>Document</title>
+  <title>Name Calculator</title>
 </head>
-<body>
-
+<body ng-app="nameCalculator">
+  <div ng-controller="nameCalculatorController">
+    <div>
+      <h1>Name Calculator</h1>
+    </div>
+    <div>
+      <p>Name: {{name}}</p>
+      <input type="text" ng-model="name" ng-keyup="numberLettersFunction()" >
+    </div>
+    <div>
+      <p>The number of letters of your name is: {{totalLetters}} </p>
+    </div>
+  </div>
 </body>
 </html>
